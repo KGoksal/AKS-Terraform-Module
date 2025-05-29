@@ -37,3 +37,13 @@ module "aks" {
 | node\_count           | number | Number of worker nodes in default pool | 2                   |
 | vm\_size              | string | Size of VM instances in the node pool  | "Standard\_DS2\_v2" |
 
+## Output Values
+
+| Output Name           | Description                                   |
+| --------------------- | --------------------------------------------- |
+| aks\_name             | Name of the deployed AKS cluster              |
+| kube\_config          | Base64-encoded kubeconfig for CLI access      |
+| node\_resource\_group | Name of the Azure-managed node resource group |
+
+
+
