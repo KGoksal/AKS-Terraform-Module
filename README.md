@@ -66,11 +66,11 @@ terraform plan
 terraform apply 
 ```
 
-After provisioning, to connect using `kubectl`:
+After provisioning, to connect using `kubectl`: 
 
-```bash
-terraform output -raw kube_config > ~/.kube/aks-config
-export KUBECONFIG=~/.kube/aks-config
+```bash 
+terraform output -raw kube_config > ~/.kube/aks-config 
+export KUBECONFIG=~/.kube/aks-config 
 kubectl get nodes
 ```
 ## Extending the Module
