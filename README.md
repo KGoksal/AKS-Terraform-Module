@@ -46,5 +46,12 @@ module "aks" {
 | node\_resource\_group | Name of the Azure-managed node resource group |
 
 
+## Requirements
+
+Ensure the following are installed and configured:
+
+* Terraform v1.3+
+* Azure CLI
+* Authenticated Azure session via `az login`
 
  
