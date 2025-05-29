@@ -37,7 +37,7 @@ module "aks" {
 | node\_count           | number | Number of worker nodes in default pool | 2                   |
 | vm\_size              | string | Size of VM instances in the node pool  | "Standard\_DS2\_v2" |
 
-## Output Values
+## Output Values 
 
 | Output Name           | Description                                   |
 | --------------------- | --------------------------------------------- |
