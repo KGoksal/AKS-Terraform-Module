@@ -73,3 +73,4 @@ terraform output -raw kube_config > ~/.kube/aks-config
 export KUBECONFIG=~/.kube/aks-config
 kubectl get nodes
 ```
+## Extending the Module
