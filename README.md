@@ -58,8 +58,8 @@ Ensure the following are installed and configured:
 ## Quick Start
 
 ```bash
-az login
-az account set --subscription "<your-subscription-id>"
+az login 
+az account set --subscription "<your-subscription-id>" 
 
 terraform init 
 terraform plan 
