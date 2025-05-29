@@ -26,3 +26,14 @@ module "aks" {
 }
 ```
 
+## Input Parameters
+
+| Variable              | Type   | Description                            | Default             |
+| --------------------- | ------ | -------------------------------------- | ------------------- |
+| resource\_group\_name | string | Name of the Azure Resource Group       | (Required)          |
+| location              | string | Azure region for resource deployment   | "East US"           |
+| aks\_cluster\_name    | string | Name of the AKS Cluster                | (Required)          |
+| dns\_prefix           | string | Prefix used for the AKS DNS entry      | "aks"               |
+| node\_count           | number | Number of worker nodes in default pool | 2                   |
+| vm\_size              | string | Size of VM instances in the node pool  | "Standard\_DS2\_v2" |
+
