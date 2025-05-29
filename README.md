@@ -79,5 +79,6 @@ This AKS module can be further customized to meet production-grade infrastructur
 * Integrate with Azure Key Vault via CSI driver for secret management. 
 * Enable private clusters to enhance security. 
 * Add multiple node pools for workload isolation. 
-* Deploy Ingress controllers like NGINX or Traefik using Helm.
-* Integrate monitoring and logging with Azure Monitor or Container Insights.
+* Deploy Ingress controllers like NGINX or Traefik using Helm.  
+* Integrate monitoring and logging with Azure Monitor or Container Insights. 
+ 
