@@ -61,7 +61,7 @@ Ensure the following are installed and configured:
 az login
 az account set --subscription "<your-subscription-id>"
 
-terraform init
-terraform plan
-terraform apply
+terraform init 
+terraform plan 
+terraform apply 
 ```
