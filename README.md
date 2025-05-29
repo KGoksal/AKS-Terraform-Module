@@ -55,3 +55,13 @@ Ensure the following are installed and configured:
 * Authenticated Azure session via `az login`
 
  
+## Quick Start
+
+```bash
+az login
+az account set --subscription "<your-subscription-id>"
+
+terraform init
+terraform plan
+terraform apply
+```
