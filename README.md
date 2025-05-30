@@ -73,12 +73,12 @@ terraform output -raw kube_config > ~/.kube/aks-config
 export KUBECONFIG=~/.kube/aks-config 
 kubectl get nodes
 ```
-## Extending the Module
-This AKS module can be further customized to meet production-grade infrastructure requirements:
+## Extending the Module 
+This AKS module can be further customized to meet production-grade infrastructure requirements: 
  
-* Integrate with Azure Key Vault via CSI driver for secret management. 
-* Enable private clusters to enhance security. 
-* Add multiple node pools for workload isolation. 
+* Integrate with Azure Key Vault via CSI driver for secret management.  
+* Enable private clusters to enhance security.  
+* Add multiple node pools for workload isolation.  
 * Deploy Ingress controllers like NGINX or Traefik using Helm.   
 * Integrate monitoring and logging with Azure Monitor or Container Insights.  
 
