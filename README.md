@@ -59,8 +59,8 @@ Ensure the following are installed and configured:
 
 ```bash
 az login 
-az account set --subscription "<your-subscription-id>" 
-
+az account set --subscription "<your-subscription-id>"  
+ 
 terraform init 
 terraform plan 
 terraform apply 
