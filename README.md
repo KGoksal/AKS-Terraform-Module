@@ -12,7 +12,7 @@ aks-terraform-module/
 │       ├── variables.tf  
 │       ├── outputs.tf 
 │       ├── versions.tf
-├── examples/
+├── examples/ 
 │   └── simple-aks-deployment/ 
 │       └── main.tf
 └── README.md
