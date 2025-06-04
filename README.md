@@ -14,7 +14,7 @@ aks-terraform-module/
 │       ├── versions.tf
 ├── examples/ 
 │   └── simple-aks-deployment/ 
-│       └── main.tf 
+│       └── main.tf  
 └── README.md
 ``` 
 
