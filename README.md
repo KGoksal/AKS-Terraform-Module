@@ -9,8 +9,8 @@ aks-terraform-module/
 ├── modules/  
 │   └── aks-cluster/ 
 │       ├── main.tf 
-│       ├── variables.tf 
-│       ├── outputs.tf
+│       ├── variables.tf  
+│       ├── outputs.tf 
 │       ├── versions.tf
 ├── examples/
 │   └── simple-aks-deployment/
