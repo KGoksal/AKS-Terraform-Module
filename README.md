@@ -6,8 +6,8 @@ This Terraform module simplifies and automates the provisioning of an Azure Kube
 
 ```
 aks-terraform-module/
-├── modules/
-│   └── aks-cluster/
+├── modules/  
+│   └── aks-cluster/ 
 │       ├── main.tf
 │       ├── variables.tf
 │       ├── outputs.tf
