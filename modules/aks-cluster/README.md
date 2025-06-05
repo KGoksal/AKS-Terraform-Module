@@ -23,11 +23,11 @@ aks-terraform-module/
 │       ├── variables.tf    # Module input variables
 │       ├── outputs.tf      # Output values from deployment
 │       ├── versions.tf     # Provider and Terraform version configuration
-├── examples/
-│   └── simple-aks-deployment/
-│       └── main.tf         # Example usage of the AKS module
-├── README.md              # Project documentation
-└── LICENSE                 # Project license
+|   └──  examples/
+│       └── simple-aks-deployment/
+│           └── main.tf      # Example usage of the AKS module
+├── README.md                # Project documentation
+└── LICENSE                  # Project license
 
 ````
 
