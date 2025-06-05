@@ -33,26 +33,6 @@ module "aks" {
 }
 ```
 
-## Input Parameters
-
-| Variable              | Type   | Description                            | Default             |
-| --------------------- | ------ | -------------------------------------- | ------------------- |
-| resource\_group\_name | string | Name of the Azure Resource Group       | (Required)          |
-| location              | string | Azure region for resource deployment   | "East US"           |
-| aks\_cluster\_name    | string | Name of the AKS Cluster                | (Required)          |
-| dns\_prefix           | string | Prefix used for the AKS DNS entry      | "aks"               |
-| node\_count           | number | Number of worker nodes in default pool | 2                   |
-| vm\_size              | string | Size of VM instances in the node pool  | "Standard\_DS2\_v2" |
-
-## Output Values 
-
-| Output Name           | Description                                   |
-| --------------------- | --------------------------------------------- |
-| aks\_name             | Name of the deployed AKS cluster              |
-| kube\_config          | Base64-encoded kubeconfig for CLI access      |
-| node\_resource\_group | Name of the Azure-managed node resource group |
-
-
 ## Requirements
 
 Ensure the following are installed and configured:
@@ -80,14 +60,6 @@ terraform output -raw kube_config > ~/.kube/aks-config
 export KUBECONFIG=~/.kube/aks-config 
 kubectl get nodes
 ```
-## Extending the Module 
-This AKS module can be further customized to meet production-grade infrastructure requirements: 
- 
-* Integrate with Azure Key Vault via CSI driver for secret management.   
-* Enable private clusters to enhance security.   
-* Add multiple node pools for workload isolation.   
-* Deploy Ingress controllers like NGINX or Traefik using Helm.     
-* Integrate monitoring and logging with Azure Monitor or Container Insights.    
 
 
 
