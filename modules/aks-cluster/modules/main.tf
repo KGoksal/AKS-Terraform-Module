@@ -13,8 +13,8 @@ resource "azurerm_kubernetes_cluster" "aks" {
     os_type    = "Linux"
     vnet_subnet_id = var.subnet_id 
   } 
-
-  identity {
+ 
+  identity { 
     type = "SystemAssigned" 
   }
 
