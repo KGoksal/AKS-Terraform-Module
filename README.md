@@ -97,5 +97,4 @@ You can further extend the AKS module to meet specific requirements:
 - Integrate with Azure Monitor or Container Insights for enhanced logging and monitoring.
 
 ## Friendly Note
-
 I hope this AKS Terraform module helps streamline your infrastructure management in Azure! If you have any questions, need assistance, or want to contribute, feel free to open an issue or a pull request.
