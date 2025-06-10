@@ -4,7 +4,7 @@ output "aks_name" {
 }
 
 output "kube_config" {
-  description = "Base64-encoded kubeconfig for CLI access."
+  description = "Base64-encoded kubeconfig for CLI access." 
   value       = azurerm_kubernetes_cluster.aks.kube_config_raw
 } 
 
