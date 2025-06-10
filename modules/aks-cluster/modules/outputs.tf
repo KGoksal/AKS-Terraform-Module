@@ -10,5 +10,5 @@ output "kube_config" {
 
 output "node_resource_group" { 
   description = "The name of the Azure-managed node resource group." 
-  value       = azurerm_kubernetes_cluster.aks.node_resource_group_name 
-}
+  value       = azurerm_kubernetes_cluster.aks.node_resource_group_name  
+} 
