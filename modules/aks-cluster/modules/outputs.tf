@@ -1,6 +1,6 @@
 output "aks_name" {   
   description = "The name of the deployed AKS cluster."
-  value       = azurerm_kubernetes_cluster.aks.name
+  value       = azurerm_kubernetes_cluster.aks.name 
 }
 
 output "kube_config" {
