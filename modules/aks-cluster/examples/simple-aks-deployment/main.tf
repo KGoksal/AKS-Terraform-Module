@@ -1,7 +1,7 @@
 module "aks" {
   source              = "../../modules/aks-cluster" 
   resource_group_name = "rg-dev-kadir" 
-  location            = "East US"  
+  location            = "East US"   
   aks_cluster_name    = "kadir-aks"  
   dns_prefix          = "kadir"  
   node_count          = 2  
